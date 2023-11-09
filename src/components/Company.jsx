@@ -26,7 +26,7 @@ const Company = () => {
                 validationSchema={validateCompanyData}
                 onSubmit={handleSubmit}
             >
-                {({errors, values, setFieldValue}) => (
+                {({errors}) => (
                     <Form>
                     <Section>
                         <label htmlFor='companyName'>Company Name</label>
